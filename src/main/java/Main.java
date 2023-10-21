@@ -9,6 +9,7 @@ public class Main {
         while(true) {
             String command = in.nextLine();
             String[] commandArgs = command.split(" ");
+
             switch (commandArgs[0]) {
                 case "add":
                     System.out.println(calculator.add(Integer.parseInt(commandArgs[1]),Integer.parseInt(commandArgs[2])));
